@@ -1,0 +1,44 @@
+body{
+    background-color: #1F2937;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: #10B981;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2em
+}
+#header2{
+    color: #4ADF86;
+}
+#header1{
+    color: #FFFFFF;
+    margin-top: 5em
+}
+#header1, #header2{
+    font-size: 3vw;
+    text-align: center;
+}
+h2{
+    color: #D5D4D8;
+    text-align: center;
+}
+#password, #password2{
+    display: flex;
+    color: #10B981;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #273549;
+    border-radius: 5px;
+    margin-right: 25em;
+    margin-left: 25em;
+    justify-content: center;
+    flex-direction: row;
+}
+hr{
+    border: 1px solid #2F3E53;
+}
