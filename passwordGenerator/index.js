@@ -12,7 +12,6 @@ function generate(){
         if(chars.length < 15){
             pass = characters[Math.floor(Math.random()* 91)]
             chars.push(pass)
-            console.log(chars)
             password.textContent += pass
         }       
     }
@@ -20,7 +19,6 @@ function generate(){
         if(chars2.length < 15){
             pass = characters[Math.floor(Math.random()* 91)]
             chars2.push(pass)
-            console.log(chars2)
             password2.textContent += pass
         }       
     }
